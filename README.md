@@ -31,9 +31,23 @@
 * C++ compiler - install [Visual Studio](https://visualstudio.microsoft.com/downloads/)
 
 ## Installation
+ 
+  1. **Clone the repository:**
+ 
+     ```bash
+     git clone https://github.com/your_username/your_repository.git
+     cd your_repository
+     ```
+ 
+  2. **Create and activate a virtual environment (optional but recommended):**
 
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/your_username/your_repository.git
-   cd your_repository
+     ```bash
+     python -m venv venv
+     source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+     ```
+ 
+  3. **Install the required packages:**
+ 
+     ```bash
+     pip install -r requirements.txt
+     ```
