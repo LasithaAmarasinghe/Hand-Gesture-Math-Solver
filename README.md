@@ -35,7 +35,7 @@
   1. **Clone the repository:**
  
      ```bash
-     git clone https://github.com/your_username/your_repository.git
+     git clone https://github.com/LasithaAmarasinghe/Hand-Gesture-Math-Solver.git
      cd your_repository
      ```
  
