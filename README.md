@@ -106,8 +106,8 @@ ___
 
 **Left-Right Hand Detection**
 
-<img src="https://github.com/LasithaAmarasinghe/Hand-Gesture-Math-Solver/assets/106037441/c0eaf562-bb89-4b47-b9f8-4bb96ec3e442" width="500" height="300">
-<img src="https://github.com/LasithaAmarasinghe/Hand-Gesture-Math-Solver/assets/106037441/a7c1a542-8b85-42a2-87fa-bb20ff280a1e" width="500" height="300">
+<img src="https://github.com/LasithaAmarasinghe/Hand-Gesture-Math-Solver/assets/106037441/c0eaf562-bb89-4b47-b9f8-4bb96ec3e442" width="400" height="240">
+<img src="https://github.com/LasithaAmarasinghe/Hand-Gesture-Math-Solver/assets/106037441/a7c1a542-8b85-42a2-87fa-bb20ff280a1e" width="400" height="240">
 
 ___
 
