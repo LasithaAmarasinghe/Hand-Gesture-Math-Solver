@@ -74,25 +74,41 @@ python math_solver.py
       
 ## Code Explanation
 
- **1. getHandInfo(img)**
+  1. **getHandInfo(img)**
 
-   * **Purpose:** Detects and tracks the user's hand in each frame of the webcam feed.
-   * **Implementation:** Uses the HandTrackingModule to identify and monitor hand movements.
+     * **Purpose:** Detects and tracks the user's hand in each frame of the webcam feed.
+     * **Implementation:** Uses the HandTrackingModule to identify and monitor hand movements.
 
- **2. draw(info, prev_pos, canvas)**
+  2. **draw(info, prev_pos, canvas)**
 
-   * **Purpose:** Draws on the canvas based on the detected hand gestures.
-   * **Parameters:**
-        * `info`: Information about the detected hand gestures.
-        * `prev_pos`: Previous position of the drawing.
-        * `canvas`: Canvas to draw on.
+     * **Purpose:** Draws on the canvas based on the detected hand gestures.
+     * **Parameters:**
+          * `info`: Information about the detected hand gestures.
+          * `prev_pos`: Previous position of the drawing.
+          * `canvas`: Canvas to draw on.
 
-**3. sendToAI(model, canvas, fingers)**
+  3. **sendToAI(model, canvas, fingers)**
 
-- **Purpose:** Sends the drawn content to Google's Generative AI for math problem solving based on recognized gestures.
-- **Parameters:**
-  - `model`: Instance of the Generative AI model.
-  - `canvas`: Canvas containing the drawn content.
-  - `fingers`: Array indicating the state of fingers (e.g., for gesture recognition).
+     * **Purpose:** Sends the drawn content to Google's Generative AI for math problem solving based on recognized gestures.
+     * **Parameters:**
+          * `model`: Instance of the Generative AI model.
+          * `canvas`: Canvas containing the drawn content.
+          * `fingers`: Array indicating the state of fingers (e.g., for gesture recognition).
+
+## Results
+
+**Math Expression Detection & Canvas** 
+
+<img src="https://github.com/LasithaAmarasinghe/Hand-Gesture-Math-Solver/assets/106037441/e9558800-a17f-432d-a4f5-d00d0a352cfb" width="500" height="300">
+<img src="https://github.com/LasithaAmarasinghe/Hand-Gesture-Math-Solver/assets/106037441/64664179-a2cc-43a2-af2b-409a6beb4325" width="500" height="300">
+
+---
+
+**Left Right Hand Detection**
+
+
+<img src="https://github.com/LasithaAmarasinghe/Hand-Gesture-Math-Solver/assets/106037441/fb57f33d-5127-44e9-8496-71122781c91a" width="500" height="300">
+
+
 
 
