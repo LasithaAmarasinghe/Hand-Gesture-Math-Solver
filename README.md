@@ -52,19 +52,47 @@
      pip install -r requirements.txt
      ```
 ## Usage
+  1. **Get a Gemini API key**
 
-  1. **Run the Application**
+     You can get an API key from [here](https://aistudio.google.com/app/apikey)
 
-Execute the main script:
+  2. **Replace API key in the code with the obtained API key**
+     
+  3. **Execute the main script**
 
 ```bash
 python math_solver.py
 ```
- 2. **Interact with the Application**
+ 4. **Interact with the Application**
    
-   * **Live Feed**
-       * The application will display the live feed from your webcam.
-   * **Perform Hand Gestures**
-       * Draw: Use one finger to draw on the canvas.
-       * Clear: Use one finger to clear the canvas.
-       * Solve Math Problem: Use all fingers except the thumb to submit a math problem for solving.
+     * **Live Feed**
+        * The application will display the live feed from your webcam.
+     * **Perform Hand Gestures**
+        * Draw: Use one finger to draw on the canvas.
+        * Clear: Use one finger to clear the canvas.
+        * Solve Math Problem: Use all fingers except the thumb to submit a math problem for solving.
+      
+## Code Explanation
+
+ **1. getHandInfo(img)**
+
+   * **Purpose:** Detects and tracks the user's hand in each frame of the webcam feed.
+   * **Implementation:** Uses the HandTrackingModule to identify and monitor hand movements.
+
+ **2. draw(info, prev_pos, canvas)**
+
+   * **Purpose:** Draws on the canvas based on the detected hand gestures.
+   * **Parameters:**
+        * `info`: Information about the detected hand gestures.
+        * `prev_pos`: Previous position of the drawing.
+        * `canvas`: Canvas to draw on.
+
+**3. sendToAI(model, canvas, fingers)**
+
+- **Purpose:** Sends the drawn content to Google's Generative AI for math problem solving based on recognized gestures.
+- **Parameters:**
+  - `model`: Instance of the Generative AI model.
+  - `canvas`: Canvas containing the drawn content.
+  - `fingers`: Array indicating the state of fingers (e.g., for gesture recognition).
+
+
