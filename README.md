@@ -51,3 +51,20 @@
      ```bash
      pip install -r requirements.txt
      ```
+## Usage
+
+  1. **Run the Application**
+
+Execute the main script:
+
+```bash
+python math_solver.py
+```
+ 2. **Interact with the Application**
+   
+   * **Live Feed**
+       * The application will display the live feed from your webcam.
+   * **Perform Hand Gestures**
+       * Draw: Use one finger to draw on the canvas.
+       * Clear: Use one finger to clear the canvas.
+       * Solve Math Problem: Use all fingers except the thumb to submit a math problem for solving.
