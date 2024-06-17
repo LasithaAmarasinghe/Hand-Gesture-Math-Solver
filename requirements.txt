@@ -1,0 +1,5 @@
+opencv-python
+cvzone
+numpy
+Pillow
+google-generativeai
