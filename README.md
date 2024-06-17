@@ -113,15 +113,15 @@ ___
 
 **Hand Gesture Detection**
 
-<img src="https://github.com/LasithaAmarasinghe/Hand-Gesture-Math-Solver/assets/106037441/56434be0-8338-41e2-b060-5b14e69f6325" width="500" height="350">
-<img src="https://github.com/LasithaAmarasinghe/Hand-Gesture-Math-Solver/assets/106037441/b66a3d35-f7f7-4b75-b7db-c93ee40d6841" width="500" height="350">
+<img src="https://github.com/LasithaAmarasinghe/Hand-Gesture-Math-Solver/assets/106037441/56434be0-8338-41e2-b060-5b14e69f6325" width="400" height="280">
+<img src="https://github.com/LasithaAmarasinghe/Hand-Gesture-Math-Solver/assets/106037441/b66a3d35-f7f7-4b75-b7db-c93ee40d6841" width="400" height="280">
 
 ## Results
 
 **Math Expression Detection & Canvas** 
 
-<img src="https://github.com/LasithaAmarasinghe/Hand-Gesture-Math-Solver/assets/106037441/e9558800-a17f-432d-a4f5-d00d0a352cfb" width="500" height="300">
-<img src="https://github.com/LasithaAmarasinghe/Hand-Gesture-Math-Solver/assets/106037441/64664179-a2cc-43a2-af2b-409a6beb4325" width="500" height="300">
+<img src="https://github.com/LasithaAmarasinghe/Hand-Gesture-Math-Solver/assets/106037441/e9558800-a17f-432d-a4f5-d00d0a352cfb" width="400" height="240">
+<img src="https://github.com/LasithaAmarasinghe/Hand-Gesture-Math-Solver/assets/106037441/64664179-a2cc-43a2-af2b-409a6beb4325" width="400" height="240">
 
 ## License
  
